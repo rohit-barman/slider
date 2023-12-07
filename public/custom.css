@@ -1,0 +1,58 @@
+.brands-warp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.img-warp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.brands span {
+    margin: 9px;
+    font-weight: 800;
+    font-size: 23px;
+    cursor: pointer;
+    padding: 9px;
+    border: 1px solid;
+}
+
+.brands span.active, .brands span:hover {
+    background: black;
+    color: #fff;
+}
+
+.brands-img{
+    height: 250px;
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    top: 4rem;
+    text-align: center;
+}
+
+.brands-img span {
+    display: none;
+}
+
+.brands-img span.active {
+    display: block;
+}
+
+.img-responsive{
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+}
+
+.brands .progress {
+    margin: 10px;
+}
+
+/* .brands .progress.active {
+    display: block;
+} */
